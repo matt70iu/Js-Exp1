@@ -1,9 +1,9 @@
-let country = 'Ireland';
+/*let country = 'Ireland';
 let continent = 'Europe';
 let populaton = 5000000;
 console.log(country);
 console.log(continent);
-console.log(populaton);
+console.log(populaton);*/
 
 /*let javascriptIsFun = true;
 console.log(javascriptIsFun);
@@ -93,10 +93,10 @@ console.log(ageJonas, ageSarah, averageAge);*/
 /*const markWeight = 78;
 const markHeight = 1.69;
 const johnWeight = 92;
-const johnHeight = 1.95;*/
+const johnHeight = 1.95;
 
 
-/*const markWeight = 95;
+const markWeight = 95;
 const markHeight = 1.88;
 const johnWeight = 85;
 const johnHeight = 1.76;
@@ -125,19 +125,28 @@ with
 multiple
 lines`);*/
 
-const description = `${country} is in ${continent}, and its 
+/*const description = `${country} is in ${continent}, and its 
 ${population} million people speak ${language}`; 
-console.log(description);
+console.log(description);*/
 
+const age = 15;
+const isOldEnough = age >= 18;
 
+if(isOldEnough) {
+    console.log('Sarah can start driving licence😊');
+} else {
+    const yearsLeft = 18 - age;
+    console.log(`Sarah is too young. Wait another ${yearsLeft} years  `);
 
+};
 
+const birthYear = 2012;
 
+let century;
+if (birthYear <= 2000) {
+    cemtury = 20;
+} else {
+    century = 21;
+}
 
-
-
-
-
-
-
-
+console.log(century);
