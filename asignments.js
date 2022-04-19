@@ -93,10 +93,10 @@ console.log(ageJonas, ageSarah, averageAge);*/
 /*const markWeight = 78;
 const markHeight = 1.69;
 const johnWeight = 92;
-const johnHeight = 1.95;
+const johnHeight = 1.95;*/
 
 
-const markWeight = 95;
+/*const markWeight = 95;
 const markHeight = 1.88;
 const johnWeight = 85;
 const johnHeight = 1.76;
@@ -105,7 +105,7 @@ const johnHeight = 1.76;
 const totalMark = markHeight * markHeight ** 2;
 const totalJohn = johnHeight / johnHeight * johnHeight;
 const markHigherTotal = totalMark > totalJohn;
-console.log(totalMark, totalJohn, markHigherTotal);*/
+console.log(totalMark, totalJohn, markHigherTotal);
 
 /*const firstName = 'Jonas';
 const job = 'teacher';
@@ -129,7 +129,7 @@ lines`);*/
 ${population} million people speak ${language}`; 
 console.log(description);*/
 
-const age = 15;
+/*const age = 15;
 const isOldEnough = age >= 18;
 
 if(isOldEnough) {
@@ -149,4 +149,37 @@ if (birthYear <= 2000) {
     century = 21;
 }
 
-console.log(century);
+console.log(century);*/
+
+
+const markWeight = 95;
+const markHeight = 1.88;
+const johnWeight = 85;
+const johnHeight = 1.76;
+
+
+const totalMark = markHeight * markHeight ** 2;
+const totalJohn = johnHeight / johnHeight * johnHeight;
+
+if(totalMark > totalJohn) {
+    console.log(`Mark's BMI (${totalJohn}) is higher than John's(${totalMark})`);
+} else {
+    console.log(`Mark's BMI (${totalJohn}) is higher than John's(${totalMark})`);
+    console.log(`John's BMI (${totalJohn}) is higher than Mark's `);
+}
+
+const populationIreland = `6 million`;
+const populationPortugal = `33 million`;
+
+ 
+if (populationIreland > 33) {console.log(`${populationIreland}'s population is above average`); 
+} else {     console.log( 
+    `${populationIreland}'s population is ${33 - populationPortugal} million below average`, 
+  ); 
+} 
+
+
+
+
+
+
