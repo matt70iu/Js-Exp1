@@ -152,7 +152,7 @@ if (birthYear <= 2000) {
 console.log(century);*/
 
 
-const markWeight = 95;
+/*const markWeight = 95;
 const markHeight = 1.88;
 const johnWeight = 85;
 const johnHeight = 1.76;
@@ -176,7 +176,35 @@ if (populationIreland > 33) {console.log(`${populationIreland}'s population is a
 } else {     console.log( 
     `${populationIreland}'s population is ${33 - populationPortugal} million below average`, 
   ); 
-} 
+} */
+
+//Type Conversion
+const inputYear = '1991';
+console.log(Number (inputYear), inputYear);
+console.log((inputYear) + 18);
+
+console.log(String(23));
+
+//Type coercion
+
+console.log('i am' + 23 + 'years ole');
+console.log('23' - '10' - 3);
+console.log('23' * '2');
+
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean('matt'));
+console.log(Boolean({}));
+
+const money = 0;
+if (money) {
+    console.log("Don't spend it all");
+} else {
+    console.log('you Should get a job');
+}
+
+
+
 
 
 
